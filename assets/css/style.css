@@ -475,7 +475,10 @@ h6 {
   left: 0;
   right: 0;
 }
-
+::selection {
+  color: white;
+  background-color: #fc6805a1;
+}
 #hero .container {
   position: relative;
 }
